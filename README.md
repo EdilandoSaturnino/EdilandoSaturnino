@@ -1,20 +1,21 @@
 ### Olá! Eu sou o Edilando Saturnino!
 
-- 🔭 Atualmente, sou um estudante de Administração e Ciência da Computação
-- 🌱 Estudando Administração e Desenvolvimento de Sistemas
+- 🔭 Estudante de desenvolvimento web
+- 🌱 Estudando administração, inglês, espanhol, animação digital e opções binárias
+- 💨 Futuro estudante de Ciência da Computação
 - 😄 Pronomes: ele/dele
 
 <div align="center">
   <a href="https://github.com/edilandosaturnino">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=edilandosaturnino&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edilandosaturnino&layout=compact&langs_count=7&theme=dracula"/>
 
-  </div>
+    
+</div>
   <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://media.discordapp.net/attachments/850743714754330654/900901003426140190/imagem_2021-10-21_211815.png?width=436&height=417">
+  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://media.discordapp.net/attachments/850743714754330654/900897860890017803/imagem_2021-10-21_210607.png?width=417&height=417">
 </div>
   
   ##
