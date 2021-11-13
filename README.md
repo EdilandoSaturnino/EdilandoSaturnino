@@ -1,8 +1,7 @@
 ### Olá! Eu sou o Edilando Saturnino!
 
-- 🔭 Estudante de desenvolvimento web
-- 🌱 Estudando administração, inglês, espanhol, animação digital e opções binárias
-- 💨 Futuro estudante de Ciência da Computação
+- 🔭 3° ano do Ensino Médio
+- 🌱 Estudando desenvolvimento web, administração, inglês, espanhol, animação digital, opções binárias e marketing
 - 😄 Pronomes: ele/dele
 
 <div align="center">
