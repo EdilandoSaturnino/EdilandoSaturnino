@@ -11,7 +11,7 @@
 - 💚 &nbsp; Estudando desenvolvimento web, administração, inglês, espanhol, animação digital, opções binárias e marketing.
 - 🚀 &nbsp; Atualmente, tenho como foco principal a minha carreira na área de desenvolvimento web e administrativa.
 - 🏎 &nbsp; Sou apaixonado por jogos, especialmente por Counter-Strike Global Offensive, e costumo jogar Minecraft no meu tempo livre. É o que eu mais gosto de fazer pra me divertir e esvaziar a cabeça, hihi!
-- 💵 &nbsp; Também gosto muito de investimentos, do mercado financeiro e de economia.
+- 💵 &nbsp; Também gosto muito de investimentos! :')
 
 <h2> 🛠 &nbsp;Tech Stack</h2>
 <h3>💻 &nbsp;Front-end:</h3>
