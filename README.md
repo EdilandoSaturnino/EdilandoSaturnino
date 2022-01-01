@@ -12,6 +12,7 @@
 - 🚀 &nbsp; Atualmente, tenho como foco principal a minha carreira na área de desenvolvimento web e administrativa.
 - 🏎 &nbsp; Sou apaixonado por jogos, especialmente por Counter-Strike Global Offensive, e costumo jogar Minecraft no meu tempo livre. É o que eu mais gosto de fazer pra me divertir e esvaziar a cabeça, hihi!
 - 💵 &nbsp; Também gosto muito de investimentos! :')
+-  😎 &nbsp; O cara mais gente boa que eu conheço: <a href="https://github.com/Bowsz" target="_blank">Isaque</a>
 
 <h2> 🛠 &nbsp;Tech Stack</h2>
 <h3>💻 &nbsp;Front-end:</h3>
