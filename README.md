@@ -5,7 +5,7 @@
   <a href="https://www.linkedin.com/in/edilando/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
  </div>
 
-<h2> 👨🏻‍💻 &nbsp;About Me </h2>
+<h2> 👨🏻‍💻 &nbsp;Sobre mim </h2>
 
 - 👨🏻‍💻 &nbsp; Meu primeiro contato com linhas de código foi quando eu queria fazer um pequeno aplicativo de limpeza e otimização de computadores, bem, usando o próprio prompt de comando, haha. Pouco tempo depois, comecei a averiguar como funcionava os códigos de BOTs do Discord, foi aí que iniciei meus estudos com a linguagem JavaScript e Node.js aos meus 14 anos.
 - 💚 &nbsp; Estudando desenvolvimento web, administração, inglês, espanhol, animação digital, opções binárias e marketing.
