@@ -10,7 +10,7 @@
 - 👨🏻‍💻 &nbsp; Meu primeiro contato com linhas de código foi quando eu queria fazer um pequeno aplicativo de limpeza e otimização de computadores, bem, usando o próprio prompt de comando, haha. Pouco tempo depois, comecei a averiguar como funcionava os códigos de BOTs do Discord, foi aí que iniciei meus estudos com a linguagem JavaScript e Node.js aos meus 14 anos.
 - 💚 &nbsp; Estudando desenvolvimento web, administração, inglês, espanhol, animação digital, opções binárias e marketing.
 - 🚀 &nbsp; Atualmente, tenho como foco principal a minha carreira na área de desenvolvimento web e administrativa.
-- 🏎 &nbsp; Sou apaixonado por jogos, especialmente por Counter-Strike Global Offensive, e costumo jogar Minecraft no meu tempo livre. É o que eu mais gosto de fazer pra me divertir e esvaziar a cabeça, hihi!
+- 🏎 &nbsp; Sou apaixonado por jogos, especialmente por Counter-Strike Global Offensive. É o que eu mais gosto de fazer pra me divertir e esvaziar a cabeça, hihi!
 - 💵 &nbsp; Também gosto muito de investimentos! :')
 -  😎 &nbsp; O cara mais gente boa que eu conheço: <a href="https://github.com/Bowsz" target="_blank">Isaque</a>
 
