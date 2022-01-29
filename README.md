@@ -22,7 +22,7 @@ Olá! Meu nome é Edilando Saturnino e tenho 17 anos. Sou Front-end developer e 
   <a href="https://www.linkedin.com/in/edilando" alt="Linkedin" rel="nofollow">
     <img src="https://imgur.com/TzzxqE8.png" style="max-width: 100%;">
   </a>
-  <a href="https://discord.gg/users/452152439173545985" alt="Discord" rel="nofollow">
+  <a href="https://discord.com/users/452152439173545985" alt="Discord" rel="nofollow">
     <img src="https://imgur.com/1sOoIhe.png" style="max-width: 100%;">
   </a>
 </p>
