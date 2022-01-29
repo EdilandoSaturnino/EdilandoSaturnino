@@ -15,13 +15,13 @@ Olá! Meu nome é Edilando Saturnino e tenho 17 anos. Sou Front-end developer e 
 <br>
 
 <p align="left" dir="auto">
-  <a href="https://www.instagram.com/edilandosaturnino/" alt="Instagram" target="_blank" rel="nofollow">
-    <img src="https://imgur.com/vh6VcIy.png" target="_blank" style="max-width: 100%;">
+  <a href="https://www.instagram.com/edilandosaturnino/" alt="Instagram" rel="nofollow">
+    <img src="https://imgur.com/vh6VcIy.png" style="max-width: 100%;">
   </a>
-  <a href="https://www.linkedin.com/in/edilando" target="_blank" alt="Linkedin" rel="nofollow">
+  <a href="https://www.linkedin.com/in/edilando" alt="Linkedin" rel="nofollow">
     <img src="https://imgur.com/TzzxqE8.png" style="max-width: 100%;">
   </a>
-  <a href="https://discord.gg/users/452152439173545985" target="_blank" alt="Discord" rel="nofollow">
+  <a href="https://discord.gg/users/452152439173545985" alt="Discord" rel="nofollow">
     <img src="https://imgur.com/1sOoIhe.png" style="max-width: 100%;">
   </a>
 </p>
