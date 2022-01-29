@@ -1,8 +1,9 @@
 <div>
-  <img align="right" width="300" src="https://imgur.com/YLyi0xo.gif" alt="avatar">
   <h2> 👨🏻‍💻&nbsp;Sobre mim </h2>
   <p align="left">
 Olá! Meu nome é Edilando Saturnino e tenho 17 anos. Sou Front-end developer e UI Designer.
+    
+  <img align="right" width="300" src="https://imgur.com/YLyi0xo.gif" alt="avatar">
 
   </p>
   <p align="left">
