@@ -7,7 +7,7 @@ Olá! Meu nome é Edilando Saturnino e tenho 17 anos. Sou Front-end developer e 
 
   </p>
   <p align="left">
-    <strong>&#9749; Habilidades:</strong> HTML, CSS, JavaScript, ReactJS e Sass.
+    <strong>&#9749; Habilidades:</strong> HTML, CSS, JS, PHP e Sass.
   </p>
   <p align="left">
     <strong>&#128188; Ferramentas:</strong> VSCode, Figma, Notion, Sublime, Git e GitHub.
