@@ -1,5 +1,5 @@
 <div>
-  <img align="right" width="300" src="https://imgur.com/YLyi0xo.gif" alt="avatar">
+  <img align="right" width="300" src="https://imgur.com/dWxbYGf.png" alt="avatar">
 
   <h2>‍ <span>&#128102;</span> Sobre mim </h2>
   <p align="left">
