@@ -29,7 +29,6 @@ Olá jovem, meu nome é Edilando! Eu sou um desenvolvedor Front-end e UI Designe
 
 </div>
 
-<div>
 <p align="left" dir="auto">
   <a href="https://www.instagram.com/edilandosaturnino/" alt="Instagram" rel="nofollow">
     <img src="https://imgur.com/vh6VcIy.png" style="max-width: 100%;">
@@ -41,4 +40,3 @@ Olá jovem, meu nome é Edilando! Eu sou um desenvolvedor Front-end e UI Designe
     <img src="https://imgur.com/1sOoIhe.png" style="max-width: 100%;">
   </a>
 </p>
-</div>
