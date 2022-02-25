@@ -14,7 +14,7 @@ Olá jovem, Meu nome é Edilando! Eu sou um desenvolvedor Front-end e UI Designe
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
   ![Sass](https://img.shields.io/badge/-Sass-333333?style=flat&logo=sass)
   ![Tailwindcss](https://img.shields.io/badge/-Tailwindcss-333333?style=flat&logo=tailwindcss)
-  ![Styledcomponents](https://img.shields.io/badge/-styledcomponents-333333?style=flat&logo=styledcomponents)
+  <img src="https://img.shields.io/badge/-styledcomponents-333333?style=flat&logo=styledcomponents">
 </p>
 
 <p align="left">
