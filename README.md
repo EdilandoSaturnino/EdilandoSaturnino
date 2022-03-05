@@ -4,7 +4,7 @@
 
   <h2>‍ <span>👋</span> Sobre mim </h2>
   <p align="left">
-Olá jovem, meu nome é Edilando! Eu sou um desenvolvedor Front-end e UI Designer.
+Olá jovem, meu nome é Edilando e tenho 18 anos! Eu sou um desenvolvedor Front-end e UI Designer.
 
 <p align="left">
   <strong>&#9749; Habilidades</strong>
