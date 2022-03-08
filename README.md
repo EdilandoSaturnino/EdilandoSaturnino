@@ -2,7 +2,7 @@
 
 <div>
 
-  <h2>‍ <span><img src="https://imgur.com/YBRZguG.gif" width="30px"></span> Sobre mim </h2>
+  <h2>‍ <span><img src="https://imgur.com/YBRZguG.gif" width="23px"></span> Sobre mim </h2>
   <p align="left">
 Olá jovem, meu nome é Edilando e tenho 18 anos! Eu sou um desenvolvedor Front-end e UI Designer.
 
