@@ -8,23 +8,26 @@ Olá jovem, meu nome é Edilando e tenho 18 anos! Eu sou um desenvolvedor Front-
 
 <p align="left">
   <strong>&#9749; Habilidades</strong>
-  
-  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-  ![Sass](https://img.shields.io/badge/-Sass-333333?style=flat&logo=sass)
-  ![Tailwindcss](https://img.shields.io/badge/-Tailwindcss-333333?style=flat&logo=tailwindcss)
-  ![Styledcomponents](https://img.shields.io/badge/-Styled%20Components-333333?style=flat&logo=Styledcomponents)
+
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=for-the-badge&logo=html5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=for-the-badge&logo=CSS3&logoColor=1572B6)&nbsp;
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=for-the-badge&logo=javascript)&nbsp;
+![Bootstrap](https://img.shields.io/badge/-bootstrap-05122A?style=for-the-badge&logo=bootstrap)&nbsp;
+![SASS](https://img.shields.io/badge/-sASS-05122A?style=for-the-badge&logo=sass&logoColor=CC6699)&nbsp;
 </p>
 
 <p align="left">
   <strong>&#128188; Ferramentas</strong>
-  
-  ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-  ![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
-  ![Notion](https://img.shields.io/badge/-Notion-333333?style=flat&logo=notion)
-  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+![Figma](https://img.shields.io/badge/-figma-05122A?style=for-the-badge&logo=figma)&nbsp;
+![Notion](https://img.shields.io/badge/-Notion-05122A?style=for-the-badge&logo=notion&logoColor=ffffff)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=for-the-badge&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=for-the-badge&logo=github)&nbsp;
+![Windows](https://img.shields.io/badge/-Windows-05122A?style=for-the-badge&logo=windows)&nbsp;
+![microsoft-office](https://img.shields.io/badge/-microsoft_office-05122A?style=for-the-badge&logo=microsoft-office)&nbsp;
+ <br>
+
 </p>
 
 </div>
