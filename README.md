@@ -1,22 +1,28 @@
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
-
 <div>
+<img
+src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" 
+width="400px"
+align="right"
+alt="Computador">
+<div>
+  <h2>‍<span><img src="https://imgur.com/YBRZguG.gif" width="23px"></span> Sobre mim</h2>
 
-  <h2>‍ <span><img src="https://imgur.com/YBRZguG.gif" width="23px"></span> Sobre mim </h2>
   <p align="left">
 Olá jovem, meu nome é Edilando e tenho 18 anos! Eu sou um desenvolvedor Front-end e UI Designer.
 
-<p align="left">
+<p text-align="left">
   <strong>&#9749; Habilidades</strong>
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=for-the-badge&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=for-the-badge&logo=CSS3&logoColor=1572B6)&nbsp;
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=for-the-badge&logo=javascript)&nbsp;
 ![Bootstrap](https://img.shields.io/badge/-bootstrap-05122A?style=for-the-badge&logo=bootstrap)&nbsp;
-![SASS](https://img.shields.io/badge/-sASS-05122A?style=for-the-badge&logo=sass&logoColor=CC6699)&nbsp;
+![SASS](https://img.shields.io/badge/-sass-05122A?style=for-the-badge&logo=sass&logoColor=CC6699)&nbsp;
+![STYLED COMPONENTS](https://img.shields.io/badge/-styledcomponents-05122A?style=for-the-badge&logo=styledcomponents&logoColor=CC6699)&nbsp;
+![REACTJS](https://img.shields.io/badge/-reactjs-05122A?style=for-the-badge&logo=react&logoColor=CC6699)&nbsp;
 </p>
 
-<p align="left">
+<p text-align="left">
   <strong>&#128188; Ferramentas</strong>
 
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)&nbsp;
@@ -25,13 +31,10 @@ Olá jovem, meu nome é Edilando e tenho 18 anos! Eu sou um desenvolvedor Front-
 ![Git](https://img.shields.io/badge/-Git-05122A?style=for-the-badge&logo=git)&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=for-the-badge&logo=github)&nbsp;
 ![Windows](https://img.shields.io/badge/-Windows-05122A?style=for-the-badge&logo=windows)&nbsp;
-![microsoft-office](https://img.shields.io/badge/-microsoft_office-05122A?style=for-the-badge&logo=microsoft-office)&nbsp;
- <br>
-
+![Vercel](https://img.shields.io/badge/-vercel-05122A?style=for-the-badge&logo=vercel)&nbsp;
 </p>
 
-</div>
-<div align="left" dir="auto">
+
   <a href="https://www.instagram.com/edilandosaturnino/" alt="Instagram" rel="nofollow">
     <img src="https://imgur.com/vh6VcIy.png" style="max-width: 100%;">
   </a>
@@ -42,3 +45,4 @@ Olá jovem, meu nome é Edilando e tenho 18 anos! Eu sou um desenvolvedor Front-
     <img src="https://imgur.com/1sOoIhe.png" style="max-width: 100%;">
   </a>
 </div>
+<div>
