@@ -28,6 +28,7 @@ Olá jovem, meu nome é Edilando e tenho 18 anos! Eu sou um desenvolvedor Front-
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![Figma](https://img.shields.io/badge/-figma-05122A?style=for-the-badge&logo=figma)&nbsp;
 ![Notion](https://img.shields.io/badge/-Notion-05122A?style=for-the-badge&logo=notion&logoColor=ffffff)&nbsp;
+<br>
 ![Git](https://img.shields.io/badge/-Git-05122A?style=for-the-badge&logo=git)&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=for-the-badge&logo=github)&nbsp;
 ![Windows](https://img.shields.io/badge/-Windows-05122A?style=for-the-badge&logo=windows)&nbsp;
