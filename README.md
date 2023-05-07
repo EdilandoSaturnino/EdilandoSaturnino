@@ -21,7 +21,6 @@ Olá jovem, meu nome é Edilando e tenho 19 anos! Eu sou um desenvolvedor Front-
 ![STYLED COMPONENTS](https://img.shields.io/badge/-styledcomponents-05122A?style=for-the-badge&logo=styledcomponents&logoColor=CC6699)&nbsp;
 ![REACTJS](https://img.shields.io/badge/-reactjs-05122A?style=for-the-badge&logo=react&logoColor=2F6DB9)&nbsp;
 ![TYPESCRIPT](https://img.shields.io/badge/-typescript-05122A?style=for-the-badge&logo=typescript&logoColor=2F6DB9)&nbsp;
-![JAVA](https://img.shields.io/badge/-java-05122A?style=for-the-badge&logo=java&logoColor=2F6DB9)&nbsp;
 </p>
 
 <p text-align="left">
