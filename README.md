@@ -7,7 +7,7 @@ alt="Computador">
 <div>
   <h2>‍<span><img src="https://imgur.com/YBRZguG.gif" width="23px" height="23px"></span> Sobre mim</h2>
 
-  <p align="left">
+<p align="left">
 Olá jovem, meu nome é Edilando e tenho 19 anos! Eu sou um desenvolvedor Front-end e UI Designer.
 
 <p text-align="left">
@@ -21,7 +21,8 @@ Olá jovem, meu nome é Edilando e tenho 19 anos! Eu sou um desenvolvedor Front-
 ![STYLED COMPONENTS](https://img.shields.io/badge/-styledcomponents-05122A?style=for-the-badge&logo=styledcomponents&logoColor=CC6699)&nbsp;
 ![REACTJS](https://img.shields.io/badge/-reactjs-05122A?style=for-the-badge&logo=react&logoColor=2F6DB9)&nbsp;
 ![TYPESCRIPT](https://img.shields.io/badge/-typescript-05122A?style=for-the-badge&logo=typescript&logoColor=2F6DB9)&nbsp;
-</p>
+[![Java](https://img.shields.io/badge/-Java-05122A?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)&nbsp;
+  </p>
 
 <p text-align="left">
   <strong>&#128188; Ferramentas</strong>
