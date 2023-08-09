@@ -49,16 +49,4 @@
   <p align="left">
     <img src="https://img.shields.io/badge/-reactnative-05122A?style=for-the-badge&logo=react&logoColor=ffffff" alt="React Native">
   </p>
-  
-  <div style="display: flex; align-items: center;">
-    <a href="https://www.instagram.com/edilandosaturnino/" alt="Instagram" rel="nofollow">
-      <img src="https://imgur.com/vh6VcIy.png" style="max-width: 100%;">
-    </a>
-    <a href="https://www.linkedin.com/in/edilando" alt="Linkedin" rel="nofollow">
-      <img src="https://imgur.com/TzzxqE8.png" style="max-width: 100%;">
-    </a>
-    <a href="https://discord.com/users/452152439173545985" alt="Discord" rel="nofollow">
-      <img src="https://imgur.com/1sOoIhe.png" style="max-width: 100%;">
-    </a>
-  </div>
 </div>
