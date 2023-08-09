@@ -44,9 +44,17 @@
   </p>
   
   <p align="left">
-    <strong>📱 Mobile</strong>
+    <strong>🛠️ Ferramentas</strong>
   </p>
   <p align="left">
-    <img src="https://img.shields.io/badge/-reactnative-05122A?style=for-the-badge&logo=react&logoColor=ffffff" alt="React Native">
+    <img src="https://img.shields.io/badge/-Notion-05122A?style=for-the-badge&logo=notion" alt="Notion">
+    <img src="https://img.shields.io/badge/-Figma-05122A?style=for-the-badge&logo=figma" alt="Figma">
+    <img src="https://img.shields.io/badge/-Postman-05122A?style=for-the-badge&logo=postman" alt="Postman">
+    <img src="https://img.shields.io/badge/-Windows-05122A?style=for-the-badge&logo=windows" alt="Windows">
+    <img src="https://img.shields.io/badge/-Vercel-05122A?style=for-the-badge&logo=vercel" alt="Vercel">
+    <img src="https://img.shields.io/badge/-OnRender-05122A?style=for-the-badge&logo=onrender" alt="OnRender">
+    <img src="https://img.shields.io/badge/-VSCode-05122A?style=for-the-badge&logo=visualstudiocode" alt="Visual Studio Code">
+    <img src="https://img.shields.io/badge/-GitHub-05122A?style=for-the-badge&logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/-Git-05122A?style=for-the-badge&logo=git" alt="Git">
   </p>
 </div>
