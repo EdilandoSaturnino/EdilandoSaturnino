@@ -11,7 +11,7 @@
       Sobre mim
     </h2>
     <p align="left">
-      Olá jovem, meu nome é Edilando e tenho 19 anos! Eu sou um desenvolvedor Front-end e UI Designer.
+      Olá! Eu sou Edilando, um entusiasta da tecnologia de 19 anos que encontrou paixão em criar experiências envolventes na web e além. Sou um progamador FullStack com especialização em Front-end & UI designer, estou comprometido em transformar ideias em interfaces atraentes e funcionais.
     </p>
     <div>
     <p align="left">
