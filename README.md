@@ -37,16 +37,16 @@
   <p align="left">
     <strong>⚙️ Backend</strong>
   </p>
-  <p align="left">
+  <div align="left">
     <img src="https://img.shields.io/badge/-Java-05122A?style=for-the-badge&logo=java&logoColor=white" alt="Java">
     <img src="https://img.shields.io/badge/-nodejs-05122A?style=for-the-badge&logo=nodedotjs" alt="Node.js">
     <img src="https://img.shields.io/badge/-mongodb-05122A?style=for-the-badge&logo=mongodb" alt="MongoDB">
-  </p>
+  </div>
   
   <p align="left">
     <strong>🛠️ Ferramentas</strong>
   </p>
-  <p align="left">
+  <div align="left">
     <img src="https://img.shields.io/badge/-Notion-05122A?style=for-the-badge&logo=notion" alt="Notion">
     <img src="https://img.shields.io/badge/-Figma-05122A?style=for-the-badge&logo=figma" alt="Figma">
     <img src="https://img.shields.io/badge/-Postman-05122A?style=for-the-badge&logo=postman" alt="Postman">
@@ -56,5 +56,5 @@
     <img src="https://img.shields.io/badge/-VSCode-05122A?style=for-the-badge&logo=visualstudiocode" alt="Visual Studio Code">
     <img src="https://img.shields.io/badge/-GitHub-05122A?style=for-the-badge&logo=github" alt="GitHub">
     <img src="https://img.shields.io/badge/-Git-05122A?style=for-the-badge&logo=git" alt="Git">
-  </p>
+  </div>
 </div>
