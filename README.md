@@ -41,6 +41,7 @@
     <img src="https://img.shields.io/badge/-Java-05122A?style=for-the-badge&logo=java&logoColor=white" alt="Java">
     <img src="https://img.shields.io/badge/-nodejs-05122A?style=for-the-badge&logo=nodedotjs" alt="Node.js">
     <img src="https://img.shields.io/badge/-mongodb-05122A?style=for-the-badge&logo=mongodb" alt="MongoDB">
+    <img src="https://img.shields.io/badge/-MySQL-05122A?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL">
   </div>
   
   <p align="left">
