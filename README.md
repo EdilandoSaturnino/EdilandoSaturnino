@@ -11,7 +11,7 @@
       Sobre mim
     </h2>
     <p align="left">
-      Olá! Eu sou Edilando, um entusiasta da tecnologia de 19 anos que encontrou paixão em criar experiências envolventes na web e além. Sou um progamador FullStack com especialização em Front-end & UI designer, estou comprometido em transformar ideias em interfaces atraentes e funcionais.
+      Desenvolvedor FullStack especializado em Front-end e UI Design.
       <p align="left"> <img src="https://komarev.com/ghpvc/?username=edilandosaturnino" color="#2F6DB9" alt="Profile views" /> </p>
     </p>
     <div>
