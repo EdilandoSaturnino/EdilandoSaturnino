@@ -11,7 +11,7 @@
       Sobre mim
     </h2>
     <p align="left">
-      Desenvolvedor FullStack especializado em Front-end e UI Design.
+      Desenvolvedor Full-Stack especializado em Front-end e UI Design.
       <p align="left"> <img src="https://komarev.com/ghpvc/?username=edilandosaturnino" color="#2F6DB9" alt="Profile views" /> </p>
     </p>
     <div>
