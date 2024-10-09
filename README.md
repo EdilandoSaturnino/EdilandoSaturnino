@@ -30,6 +30,7 @@
         <img src="https://img.shields.io/badge/-StyledComponents-05122A?style=for-the-badge&logo=styledcomponents&logoColor=CC6699" alt="Styled Components">
         <img src="https://img.shields.io/badge/-Stitches-05122A?style=for-the-badge&logo=stitches&logoColor=2F6DB9" alt="Stitches">
         <img src="https://img.shields.io/badge/-MaterialUI-05122A?style=for-the-badge&logo=mui&logoColor=007FFF" alt="Material UI">
+        <img src="https://img.shields.io/badge/-shadcn-05122A?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="shadcn">
         <img src="https://img.shields.io/badge/-ReactNative-05122A?style=for-the-badge&logo=react&logoColor=ffffff" alt="React Native">
       </p>
     </div>
