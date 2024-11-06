@@ -97,7 +97,6 @@
       <img src="https://img.shields.io/badge/-Figma-05122A?style=for-the-badge&logo=figma" alt="Figma">
       <img src="https://img.shields.io/badge/-Notion-05122A?style=for-the-badge&logo=notion" alt="Notion">
       <img src="https://img.shields.io/badge/-Slack-05122A?style=for-the-badge&logo=slack" alt="Slack">
-      <img src="https://img.shields.io/badge/-Discord-05122A?style=for-the-badge&logo=discord" alt="Discord">
       <img src="https://img.shields.io/badge/-Teams-05122A?style=for-the-badge&logo=microsoftteams" alt="Teams">
       <img src="https://img.shields.io/badge/-Zoom-05122A?style=for-the-badge&logo=zoom" alt="Zoom">
       <img src="https://img.shields.io/badge/-Jira-05122A?style=for-the-badge&logo=jira" alt="Jira">
