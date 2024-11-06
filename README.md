@@ -11,7 +11,7 @@
       Sobre mim
     </h2>
     <p align="left">
-      Desenvolvedor Full-Stack especializado em Front-End e UI Design.
+      Desenvolvedor Full-Stack especializado em Front-End, Mobile e UI Design.
       <p align="left"> <img src="https://komarev.com/ghpvc/?username=edilandosaturnino" color="#2F6DB9" alt="Profile views" /> </p>
     </p>
     <div>
@@ -31,10 +31,20 @@
         <img src="https://img.shields.io/badge/-Stitches-05122A?style=for-the-badge&logo=stitches&logoColor=2F6DB9" alt="Stitches">
         <img src="https://img.shields.io/badge/-MaterialUI-05122A?style=for-the-badge&logo=mui&logoColor=007FFF" alt="Material UI">
         <img src="https://img.shields.io/badge/-shadcn%2Fui-05122A?style=for-the-badge&logo=shadcnui&logoColor=ffffff" alt="shadcn/ui">
-        <img src="https://img.shields.io/badge/-ReactNative-05122A?style=for-the-badge&logo=react&logoColor=ffffff" alt="React Native">
       </p>
     </div>
   </div>
+</div>
+
+<div>
+  <p align="left">
+    <strong>📱 Mobile</strong>
+  </p>
+  <p align="left">
+    <img src="https://img.shields.io/badge/-ReactNative-05122A?style=for-the-badge&logo=react&logoColor=2F6DB9" alt="React Native">
+    <img src="https://img.shields.io/badge/-Flutter-05122A?style=for-the-badge&logo=flutter&logoColor=02569B" alt="Flutter">
+    <img src="https://img.shields.io/badge/-Expo-05122A?style=for-the-badge&logo=expo&logoColor=ffffff" alt="Expo">
+  </p>
 </div>
 
 <div>
