@@ -104,7 +104,6 @@
       <img src="https://img.shields.io/badge/-Storybook-05122A?style=for-the-badge&logo=storybook" alt="Storybook">
       <img src="https://img.shields.io/badge/-ESLint-05122A?style=for-the-badge&logo=eslint&logoColor=4B32C3" alt="ESLint">
       <img src="https://img.shields.io/badge/-Prettier-05122A?style=for-the-badge&logo=prettier" alt="Prettier">
-      <img src="https://img.shields.io/badge/-Sentry-05122A?style=for-the-badge&logo=sentry" alt="Sentry">
     </p>
   </div>
 </div>
