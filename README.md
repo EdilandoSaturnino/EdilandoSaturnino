@@ -6,9 +6,12 @@
     </h2>
     <p align="left">
       Desenvolvedor Full-Stack especializado em Front-End e UI Design.
+    </p>
+     <p align="left">
+      Nada neste mundo supera a boa e velha persistência. O talento não supera. Nada é mais comum do que fracassados talentosos. O gênio não supera. Gênios não reconhecidos são praticamente um clichê. A educação não supera. O mundo está cheio de tolos instruídos.
+        </p>
     <p align="left">
       <img src="https://komarev.com/ghpvc/?username=edilandosaturnino" color="#2F6DB9" alt="Profile views" />
-    </p>
     </p>
     <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"
       width="400px" align="right" alt="Computador">
