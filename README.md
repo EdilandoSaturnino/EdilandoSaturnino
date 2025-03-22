@@ -46,7 +46,6 @@
     </p>
     <p align="left">
       <img src="https://img.shields.io/badge/-ReactNative-05122A?style=for-the-badge&logo=react&logoColor=2F6DB9" alt="React Native">
-      <img src="https://img.shields.io/badge/-Flutter-05122A?style=for-the-badge&logo=flutter&logoColor=02569B" alt="Flutter">
       <img src="https://img.shields.io/badge/-Expo-05122A?style=for-the-badge&logo=expo&logoColor=ffffff" alt="Expo">
     </p>
   </div>
