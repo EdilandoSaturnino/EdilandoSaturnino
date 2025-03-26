@@ -70,42 +70,4 @@
       <img src="https://img.shields.io/badge/-Docker-05122A?style=for-the-badge&logo=docker&logoColor=0db7ed" alt="Docker">
     </p>
   </div>
-
-  <div>
-    <p align="left">
-      <strong>🛠️ Ferramentas</strong>
-    </p>
-    <p align="left">
-      <!-- IDEs e Editores -->
-      <img src="https://img.shields.io/badge/-VS_Code-05122A?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code">
-      <img src="https://img.shields.io/badge/-Git-05122A?style=for-the-badge&logo=git" alt="Git">
-      <img src="https://img.shields.io/badge/-GitHub-05122A?style=for-the-badge&logo=github" alt="GitHub">
-      <img src="https://img.shields.io/badge/-Bitbucket-05122A?style=for-the-badge&logo=bitbucket&logoColor=0052CC" alt="Bitbucket">
-      <img src="https://img.shields.io/badge/-GitHub_Actions-05122A?style=for-the-badge&logo=githubactions" alt="GitHub Actions">
-      <img src="https://img.shields.io/badge/-NPM-05122A?style=for-the-badge&logo=npm" alt="NPM">
-      <img src="https://img.shields.io/badge/-Yarn-05122A?style=for-the-badge&logo=yarn" alt="Yarn">
-      <img src="https://img.shields.io/badge/-PNPM-05122A?style=for-the-badge&logo=pnpm" alt="PNPM">
-      <img src="https://img.shields.io/badge/-Bun-05122A?style=for-the-badge&logo=bun" alt="Bun">
-      <img src="https://img.shields.io/badge/-Postman-05122A?style=for-the-badge&logo=postman" alt="Postman">
-      <img src="https://img.shields.io/badge/-Insomnia-05122A?style=for-the-badge&logo=insomnia&logoColor=4000BF" alt="Insomnia">
-      <img src="https://img.shields.io/badge/-HTTPie-05122A?style=for-the-badge&logo=httpie&logoColor=73DC8C" alt="HTTPie">
-      <img src="https://img.shields.io/badge/-Jest-05122A?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest">
-      <img src="https://img.shields.io/badge/-Cypress-05122A?style=for-the-badge&logo=cypress" alt="Cypress">
-      <img src="https://img.shields.io/badge/-Vercel-05122A?style=for-the-badge&logo=vercel" alt="Vercel">
-      <img src="https://img.shields.io/badge/-Netlify-05122A?style=for-the-badge&logo=netlify" alt="Netlify">
-      <img src="https://img.shields.io/badge/-AWS-05122A?style=for-the-badge&logo=amazonaws&logoColor=FF9900" alt="AWS">
-      <img src="https://img.shields.io/badge/-Azure-05122A?style=for-the-badge&logo=microsoftazure&logoColor=0078D4" alt="Azure">
-      <img src="https://img.shields.io/badge/-Google_Cloud-05122A?style=for-the-badge&logo=googlecloud" alt="Google Cloud">
-      <img src="https://img.shields.io/badge/-Figma-05122A?style=for-the-badge&logo=figma" alt="Figma">
-      <img src="https://img.shields.io/badge/-Notion-05122A?style=for-the-badge&logo=notion" alt="Notion">
-      <img src="https://img.shields.io/badge/-Slack-05122A?style=for-the-badge&logo=slack" alt="Slack">
-      <img src="https://img.shields.io/badge/-Teams-05122A?style=for-the-badge&logo=microsoftteams" alt="Teams">
-      <img src="https://img.shields.io/badge/-Zoom-05122A?style=for-the-badge&logo=zoom" alt="Zoom">
-      <img src="https://img.shields.io/badge/-Jira-05122A?style=for-the-badge&logo=jira" alt="Jira">
-      <img src="https://img.shields.io/badge/-Swagger-05122A?style=for-the-badge&logo=swagger" alt="Swagger">
-      <img src="https://img.shields.io/badge/-Storybook-05122A?style=for-the-badge&logo=storybook" alt="Storybook">
-      <img src="https://img.shields.io/badge/-ESLint-05122A?style=for-the-badge&logo=eslint&logoColor=4B32C3" alt="ESLint">
-      <img src="https://img.shields.io/badge/-Prettier-05122A?style=for-the-badge&logo=prettier" alt="Prettier">
-    </p>
-  </div>
 </div>
