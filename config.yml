@@ -8,7 +8,7 @@ profile:
   bio: |
     Engenheiro de Software Full-Stack com foco em Front-End, UI Design e experiencia de usuario.
     Atuo na construcao de interfaces modernas, integracao com APIs e evolucao continua de produtos web.
-  philosophy: '"Nada neste mundo supera a boa e velha persistencia. O talento nao supera. Nada e mais comum do que fracassados talentosos. O genio nao supera. Genios nao reconhecidos sao praticamente um cliche. A educacao nao supera. O mundo esta cheio de tolos instruidos."'
+  philosophy: '"Nada neste mundo supera a boa e velha persistencia."'
 
 social: {}
 
@@ -41,7 +41,7 @@ galaxy_arms:
 projects:
   - repo: "EdilandoSaturnino/EdilandoSaturnino"
     arm: 0
-    description: "Perfil profissional com visual interativo, stack principal e geracao automatica de assets SVG."
+    description: "Nada neste mundo supera a boa e velha persistencia. O talento nao supera. Nada e mais comum do que fracassados talentosos. O genio nao supera. Genios nao reconhecidos sao praticamente um cliche. A educacao nao supera. O mundo esta cheio de tolos instruidos."
 
 theme:
   void: "#080c14"
