@@ -41,7 +41,7 @@ galaxy_arms:
 projects:
   - repo: "EdilandoSaturnino/EdilandoSaturnino"
     arm: 0
-    description: "Nada neste mundo supera a boa e velha persistencia. O talento nao supera. Nada e mais comum do que fracassados talentosos. O genio nao supera. Genios nao reconhecidos sao praticamente um cliche. A educacao nao supera. O mundo esta cheio de tolos instruidos."
+    description: "Nada neste mundo supera a boa e velha persistencia. O talento nao supera. Nada é mais comum do que fracassados talentosos. O genio nao supera. Genios nao reconhecidos sao praticamente um cliche. A educacao nao supera. O mundo esta cheio de tolos instruidos."
 
 theme:
   void: "#080c14"
