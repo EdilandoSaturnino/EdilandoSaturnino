@@ -6,8 +6,9 @@ profile:
   company: ""
   location: "Brasil"
   bio: |
-    Engenheiro de Software Full-Stack.
-  philosophy: '"Nada neste mundo supera a boa e velha persistencia."'
+    Engenheiro de Software Full-Stack com foco em Front-End, UI Design e experiencia de usuario.
+    Atuo na construcao de interfaces modernas, integracao com APIs e evolucao continua de produtos web.
+  philosophy: '"Nada neste mundo supera a boa e velha persistencia. O talento nao supera. Nada e mais comum do que fracassados talentosos. O genio nao supera. Genios nao reconhecidos sao praticamente um cliche. A educacao nao supera. O mundo esta cheio de tolos instruidos."'
 
 social: {}
 
@@ -40,10 +41,7 @@ galaxy_arms:
 projects:
   - repo: "EdilandoSaturnino/EdilandoSaturnino"
     arm: 0
-    description: "Meu perfil no GitHub com stack, visual e atualizacoes automatizadas."
-  - repo: "EdilandoSaturnino/galaxy-profile"
-    arm: 2
-    description: "Gerador do README visual em SVG com automacao via GitHub Actions."
+    description: "Perfil profissional com visual interativo, stack principal e geracao automatica de assets SVG."
 
 theme:
   void: "#080c14"
