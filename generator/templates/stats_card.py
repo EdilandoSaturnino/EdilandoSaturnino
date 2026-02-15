@@ -84,13 +84,13 @@ def render(stats: dict, metrics: list, theme: dict) -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">
   <defs>
     <style>
-      .metric-icon {
+      .metric-icon {{
         animation: count-glow 4s ease-in-out infinite;
-      }
-      @keyframes count-glow {
-        0%, 100% {  fill-opacity: 0.7; }
-        50% {  fill-opacity: 1; }
-      }
+      }}
+      @keyframes count-glow {{
+        0%, 100% {{  fill-opacity: 0.7; }}
+        50% {{  fill-opacity: 1; }}
+      }}
     </style>
     <filter id="num-glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="3"/>

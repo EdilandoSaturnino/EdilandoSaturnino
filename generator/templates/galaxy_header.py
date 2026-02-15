@@ -719,48 +719,48 @@ def render(
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">
   <defs>
     <style>
-      .star-bg {
+      .star-bg {{
         animation: twinkle-slow 7s ease-in-out infinite;
-      }
-      .star-mid {
+      }}
+      .star-mid {{
         animation: twinkle-mid 5s ease-in-out infinite;
-      }
-      .star-fg {
+      }}
+      .star-fg {{
         animation: twinkle-fast 3s ease-in-out infinite;
-      }
-      @keyframes twinkle-slow {
-        0%, 100% {  opacity: 0.08; }
-        50% {  opacity: 0.3; }
-      }
-      @keyframes twinkle-mid {
-        0%, 100% {  opacity: 0.15; }
-        50% {  opacity: 0.5; }
-      }
-      @keyframes twinkle-fast {
-        0%, 100% {  opacity: 0.4; }
-        50% {  opacity: 0.8; }
-      }
-      .core-ring {
+      }}
+      @keyframes twinkle-slow {{
+        0%, 100% {{  opacity: 0.08; }}
+        50% {{  opacity: 0.3; }}
+      }}
+      @keyframes twinkle-mid {{
+        0%, 100% {{  opacity: 0.15; }}
+        50% {{  opacity: 0.5; }}
+      }}
+      @keyframes twinkle-fast {{
+        0%, 100% {{  opacity: 0.4; }}
+        50% {{  opacity: 0.8; }}
+      }}
+      .core-ring {{
         animation: pulse-core 3s ease-in-out infinite;
-      }
-      .core-ring-inner {
+      }}
+      .core-ring-inner {{
         animation: pulse-core 3s ease-in-out infinite 1.5s;
-      }
-      @keyframes pulse-core {
-        0%, 100% {  stroke-opacity: 0.3; transform: scale(1); transform-origin: {CENTER_X}px {CENTER_Y}px; }
-        50% {  stroke-opacity: 0.8; transform: scale(1.06); transform-origin: {CENTER_X}px {CENTER_Y}px; }
-      }
-      .shooting-star {
+      }}
+      @keyframes pulse-core {{
+        0%, 100% {{  stroke-opacity: 0.3; transform: scale(1); transform-origin: {CENTER_X}px {CENTER_Y}px; }}
+        50% {{  stroke-opacity: 0.8; transform: scale(1.06); transform-origin: {CENTER_X}px {CENTER_Y}px; }}
+      }}
+      .shooting-star {{
         opacity: 0;
         animation: shoot linear infinite;
-      }
-      @keyframes shoot {
-        0% {  opacity: 0; transform: translate(0, 0); }
-        5% {  opacity: 0.9; }
-        15% {  opacity: 0.6; transform: translate(var(--shoot-tx), var(--shoot-ty)); }
-        20% {  opacity: 0; transform: translate(var(--shoot-tx), var(--shoot-ty)); }
-        100% {  opacity: 0; }
-      }
+      }}
+      @keyframes shoot {{
+        0% {{  opacity: 0; transform: translate(0, 0); }}
+        5% {{  opacity: 0.9; }}
+        15% {{  opacity: 0.6; transform: translate(var(--shoot-tx), var(--shoot-ty)); }}
+        20% {{  opacity: 0; transform: translate(var(--shoot-tx), var(--shoot-ty)); }}
+        100% {{  opacity: 0; }}
+      }}
     </style>
 
     <filter id="nebula-outer">
