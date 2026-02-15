@@ -37,7 +37,13 @@ galaxy_arms:
       - "MySQL"
       - "Docker"
 
-projects: []
+projects:
+  - repo: "EdilandoSaturnino/EdilandoSaturnino"
+    arm: 0
+    description: "Meu perfil no GitHub com stack, visual e atualizacoes automatizadas."
+  - repo: "EdilandoSaturnino/galaxy-profile"
+    arm: 2
+    description: "Gerador do README visual em SVG com automacao via GitHub Actions."
 
 theme:
   void: "#080c14"
