@@ -1,0 +1,67 @@
+username: EdilandoSaturnino
+
+profile:
+  name: "Edilando Saturnino"
+  tagline: "Engenheiro de Software Full-Stack especializado em Front-End e UI Design"
+  company: ""
+  location: "Brasil"
+  bio: |
+    Engenheiro de Software Full-Stack.
+  philosophy: '"Nada neste mundo supera a boa e velha persistencia."'
+
+social: {}
+
+galaxy_arms:
+  - name: "Front-End"
+    color: "dendrite_violet"
+    items:
+      - "TypeScript"
+      - "React"
+      - "Next.js"
+      - "Tailwind CSS"
+      - "Sass"
+      - "Vite"
+  - name: "Mobile"
+    color: "synapse_cyan"
+    items:
+      - "React Native"
+      - "Expo"
+      - "TypeScript"
+  - name: "Back-End"
+    color: "axon_amber"
+    items:
+      - "Node.js"
+      - "NestJS"
+      - "PostgreSQL"
+      - "MongoDB"
+      - "MySQL"
+      - "Docker"
+
+projects: []
+
+theme:
+  void: "#080c14"
+  nebula: "#0f1623"
+  star_dust: "#1a2332"
+  synapse_cyan: "#00d4ff"
+  dendrite_violet: "#a78bfa"
+  axon_amber: "#ffb020"
+  text_bright: "#f1f5f9"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
+
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+  max_display: 8

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="220" viewBox="0 0 850 220">
+  <rect x="0.5" y="0.5" width="849" height="219" rx="12" ry="12"
+        fill="#0f1623" stroke="#1a2332" stroke-width="1"/>
+  <text x="425.0" y="110.0" fill="#64748b" font-size="12"
+        font-family="monospace" text-anchor="middle" dominant-baseline="middle">No featured projects configured</text>
+</svg>
