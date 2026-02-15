@@ -534,7 +534,11 @@ def render(projects: list, galaxy_arms: list, theme: dict) -> str:
 
 
 
-    if n == 2:
+    if n == 1:
+
+        card_width = 520
+
+    elif n == 2:
 
         card_width = 340
 
