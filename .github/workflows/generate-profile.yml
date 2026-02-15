@@ -30,7 +30,7 @@ jobs:
       - name: Generate SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ppython -m generator.main
+        run: python -m generator.main
 
       - name: Commit and push if changed
         run: |
