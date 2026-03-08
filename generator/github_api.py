@@ -8,6 +8,7 @@ import os
 
 import time
 from datetime import datetime, timedelta, timezone
+from urllib.parse import parse_qs, urlparse
 
 
 
@@ -33,13 +34,15 @@ class GitHubAPI:
 
 
 
-    def __init__(self, username: str, token: str = None):
+    def __init__(self, username: str, token: str = None, commits_mode: str = "contributions"):
 
         self.username = username
 
         self.token = token or os.environ.get("GITHUB_TOKEN", "")
+        self.commits_mode = commits_mode
 
         self.headers = {"Accept": "application/vnd.github.v3+json"}
+        self._token_is_target_user = None
 
         if self.token:
 
@@ -108,8 +111,13 @@ class GitHubAPI:
         """Fetch user statistics. Uses GraphQL if token available, REST otherwise."""
 
         if self.token:
-
-            return self._fetch_stats_graphql()
+            stats = self._fetch_stats_graphql()
+            if self.commits_mode in {"raw", "raw_all"}:
+                try:
+                    stats["commits"] = self._fetch_commit_count_raw()
+                except requests.exceptions.RequestException as e:
+                    logger.warning("Raw commit count failed (%s). Keeping contributions count.", e)
+            return stats
 
         return self._fetch_stats_rest()
 
@@ -247,29 +255,21 @@ class GitHubAPI:
 
 
 
-        events_resp = self._request(
-
-            "GET",
-
-            f"{self.REST_URL}/users/{self.username}/events/public",
-
-            params={"per_page": 100},
-
-        )
-
-        events_resp.raise_for_status()
-
-        events = events_resp.json()
-
-        commit_count = sum(
-
-            len(e.get("payload", {}).get("commits", []))
-
-            for e in events
-
-            if e.get("type") == "PushEvent"
-
-        )
+        if self.commits_mode in {"raw", "raw_all"}:
+            commit_count = self._fetch_commit_count_raw()
+        else:
+            events_resp = self._request(
+                "GET",
+                f"{self.REST_URL}/users/{self.username}/events/public",
+                params={"per_page": 100},
+            )
+            events_resp.raise_for_status()
+            events = events_resp.json()
+            commit_count = sum(
+                len(e.get("payload", {}).get("commits", []))
+                for e in events
+                if e.get("type") == "PushEvent"
+            )
 
 
 
@@ -299,23 +299,37 @@ class GitHubAPI:
 
 
 
-    def _paginate_repos(self):
+    def _paginate_repos(self, include_non_owner: bool = False):
 
         """Yield pages of owned repos from the REST API."""
 
         page = 1
 
+        use_authenticated_repos = self._is_token_for_target_user()
         while True:
-
-            repos_resp = self._request(
-
-                "GET",
-
-                f"{self.REST_URL}/users/{self.username}/repos",
-
-                params={"per_page": 100, "page": page, "type": "owner"},
-
-            )
+            if use_authenticated_repos:
+                affiliation = "owner"
+                if include_non_owner:
+                    affiliation = "owner,collaborator,organization_member"
+                repos_resp = self._request(
+                    "GET",
+                    f"{self.REST_URL}/user/repos",
+                    params={
+                        "per_page": 100,
+                        "page": page,
+                        "visibility": "all",
+                        "affiliation": affiliation,
+                    },
+                )
+            else:
+                repo_type = "owner"
+                if include_non_owner:
+                    repo_type = "all"
+                repos_resp = self._request(
+                    "GET",
+                    f"{self.REST_URL}/users/{self.username}/repos",
+                    params={"per_page": 100, "page": page, "type": repo_type},
+                )
 
             repos_resp.raise_for_status()
 
@@ -332,6 +346,88 @@ class GitHubAPI:
                 break
 
             page += 1
+
+    def _is_token_for_target_user(self) -> bool:
+
+        """True when token exists and belongs to the configured username."""
+
+        if not self.token:
+            return False
+
+        if self._token_is_target_user is not None:
+            return self._token_is_target_user
+
+        try:
+            resp = self._request("GET", f"{self.REST_URL}/user")
+            if resp.status_code != 200:
+                self._token_is_target_user = False
+                return False
+            login = resp.json().get("login", "")
+            self._token_is_target_user = login.lower() == self.username.lower()
+        except requests.exceptions.RequestException:
+            self._token_is_target_user = False
+
+        return self._token_is_target_user
+
+    def _fetch_commit_count_raw(self) -> int:
+
+        """Count authored commits across repos using REST commits endpoint."""
+
+        total_commits = 0
+        seen_repos = set()
+        include_non_owner = self.commits_mode == "raw_all"
+        for repos in self._paginate_repos(include_non_owner=include_non_owner):
+            for repo in repos:
+                full_name = repo.get("full_name")
+                if not full_name or full_name in seen_repos:
+                    continue
+                seen_repos.add(full_name)
+                total_commits += self._count_repo_commits(full_name)
+        return total_commits
+
+    def _count_repo_commits(self, full_name: str) -> int:
+
+        """Count commits authored by the configured username in one repository."""
+
+        resp = self._request(
+            "GET",
+            f"{self.REST_URL}/repos/{full_name}/commits",
+            params={"author": self.username, "per_page": 1},
+        )
+
+        if resp.status_code in {409, 422}:
+            return 0
+
+        resp.raise_for_status()
+        last_page = self._extract_last_page_number(resp.headers.get("Link", ""))
+        if last_page is not None:
+            return last_page
+
+        data = resp.json()
+        if isinstance(data, list):
+            return len(data)
+        return 0
+
+    @staticmethod
+    def _extract_last_page_number(link_header: str):
+
+        """Extract last page number from an RFC5988 Link header."""
+
+        if not link_header:
+            return None
+
+        for part in link_header.split(","):
+            if 'rel="last"' not in part:
+                continue
+            start = part.find("<")
+            end = part.find(">")
+            if start == -1 or end == -1 or end <= start + 1:
+                continue
+            url = part[start + 1 : end]
+            page = parse_qs(urlparse(url).query).get("page", [None])[0]
+            if page and str(page).isdigit():
+                return int(page)
+        return None
 
 
 

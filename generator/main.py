@@ -138,7 +138,8 @@ def generate(args):
     else:
 
 
-        api = GitHubAPI(username)
+        commits_mode = config.get("stats", {}).get("commits_mode", "contributions")
+        api = GitHubAPI(username, commits_mode=commits_mode)
 
 
 
