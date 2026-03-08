@@ -138,22 +138,27 @@ def generate(args):
     else:
 
 
+        stats_enabled = config.get("stats", {}).get("enabled", True)
         commits_mode = config.get("stats", {}).get("commits_mode", "contributions")
         api = GitHubAPI(username, commits_mode=commits_mode)
 
 
 
-        logger.info("Fetching stats...")
+        if stats_enabled:
+            logger.info("Fetching stats...")
 
-        try:
+            try:
 
-            stats = api.fetch_stats()
+                stats = api.fetch_stats()
 
-        except (requests.exceptions.RequestException, ValueError, KeyError) as e:
+            except (requests.exceptions.RequestException, ValueError, KeyError) as e:
 
-            logger.warning("Could not fetch stats (%s). Using defaults.", e)
+                logger.warning("Could not fetch stats (%s). Using defaults.", e)
 
-            stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
+                stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
+        else:
+            logger.info("Stats card disabled in config; skipping stats fetch.")
+            stats = {}
 
 
 
@@ -190,13 +195,13 @@ def generate(args):
 
         "galaxy-header.svg": builder.render_galaxy_header(),
 
-        "stats-card.svg": builder.render_stats_card(),
-
         "tech-stack.svg": builder.render_tech_stack(),
 
         "projects-constellation.svg": builder.render_projects_constellation(),
 
     }
+    if config.get("stats", {}).get("enabled", True):
+        svgs["stats-card.svg"] = builder.render_stats_card()
 
 
 

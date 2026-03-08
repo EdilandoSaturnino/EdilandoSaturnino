@@ -55,6 +55,7 @@ theme:
   text_faint: "#64748b"
 
 stats:
+  enabled: false
   commits_mode: "raw_all"
   metrics:
     - "commits"

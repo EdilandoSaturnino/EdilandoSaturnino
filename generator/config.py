@@ -152,6 +152,9 @@ def validate_config(config: dict) -> dict:
         "metrics", ["commits", "stars", "prs", "issues", "repos"]
 
     )
+    config["stats"].setdefault("enabled", True)
+    if not isinstance(config["stats"]["enabled"], bool):
+        raise ConfigError("'stats.enabled' must be true or false.")
     config["stats"].setdefault("commits_mode", "contributions")
     commits_mode = config["stats"]["commits_mode"]
     if commits_mode not in {"contributions", "raw", "raw_all"}:
