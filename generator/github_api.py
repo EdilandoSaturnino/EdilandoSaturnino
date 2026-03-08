@@ -7,7 +7,7 @@ import logging
 import os
 
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 
 
@@ -117,14 +117,12 @@ class GitHubAPI:
 
     def _fetch_stats_graphql(self) -> dict:
 
-        """Fetch stats via GraphQL with stable all-time commit counting."""
+        """Fetch stats via GraphQL and sum all-time commits in 1-year chunks."""
 
-        query = """
-        query($username: String!, $from: DateTime!, $to: DateTime!) {
+        base_query = """
+        query($username: String!) {
           user(login: $username) {
-            repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) {
-              totalCount
-            }
+            createdAt
             pullRequests {
               totalCount
             }
@@ -137,6 +135,13 @@ class GitHubAPI:
                 stargazerCount
               }
             }
+          }
+        }
+        """
+
+        commits_query = """
+        query($username: String!, $from: DateTime!, $to: DateTime!) {
+          user(login: $username) {
             contributionsCollection(from: $from, to: $to) {
               totalCommitContributions
             }
@@ -145,77 +150,73 @@ class GitHubAPI:
         """
 
         try:
-            resp = self._request(
-
+            base_resp = self._request(
                 "POST",
-
                 self.GRAPHQL_URL,
-
-                json={
-                    "query": query,
-                    "variables": {
-                        "username": self.username,
-                        "from": "2017-01-01T00:00:00Z",
-                        "to": datetime.now(timezone.utc).isoformat(),
-                    },
-                },
-
+                json={"query": base_query, "variables": {"username": self.username}},
             )
-
-            resp.raise_for_status()
-
+            base_resp.raise_for_status()
         except requests.exceptions.Timeout:
-
             logger.warning("GraphQL request timed out, falling back to REST.")
-
             return self._fetch_stats_rest()
-
         except requests.exceptions.HTTPError as e:
-
             logger.warning("GraphQL HTTP error (%s), falling back to REST.", e)
-
             return self._fetch_stats_rest()
 
-
-
-        data = resp.json()
-
-
-
-        if "errors" in data:
-
-            logger.warning("GraphQL errors: %s", data["errors"])
-
+        base_data = base_resp.json()
+        if "errors" in base_data:
+            logger.warning("GraphQL errors: %s", base_data["errors"])
             return self._fetch_stats_rest()
 
-
-
-        user = data["data"]["user"]
-
-        contrib = user["contributionsCollection"]
-
+        user = base_data["data"]["user"]
         repos = user["repositories"]
-
-
-
         total_stars = sum(n["stargazerCount"] for n in repos["nodes"])
 
-        total_commits = contrib["totalCommitContributions"]
+        start = datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))
+        now = datetime.now(timezone.utc)
+        one_year = timedelta(days=365)
+        one_second = timedelta(seconds=1)
+        total_commits = 0
 
+        while start < now:
+            end = min(start + one_year - one_second, now)
+            try:
+                commits_resp = self._request(
+                    "POST",
+                    self.GRAPHQL_URL,
+                    json={
+                        "query": commits_query,
+                        "variables": {
+                            "username": self.username,
+                            "from": start.isoformat(),
+                            "to": end.isoformat(),
+                        },
+                    },
+                )
+                commits_resp.raise_for_status()
+            except requests.exceptions.Timeout:
+                logger.warning("GraphQL request timed out, falling back to REST.")
+                return self._fetch_stats_rest()
+            except requests.exceptions.HTTPError as e:
+                logger.warning("GraphQL HTTP error (%s), falling back to REST.", e)
+                return self._fetch_stats_rest()
 
+            commits_data = commits_resp.json()
+            if "errors" in commits_data:
+                logger.warning("GraphQL errors: %s", commits_data["errors"])
+                return self._fetch_stats_rest()
+
+            total_commits += commits_data["data"]["user"]["contributionsCollection"][
+                "totalCommitContributions"
+            ]
+            start = end + one_second
 
         return {
-
             "commits": total_commits,
-
             "stars": total_stars,
-
             "prs": user["pullRequests"]["totalCount"],
-
             "issues": user["issues"]["totalCount"],
-
             "repos": repos["totalCount"],
-
         }
 
 
