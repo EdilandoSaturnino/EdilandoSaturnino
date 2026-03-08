@@ -107,10 +107,10 @@
     <circle cx="425.0" cy="85" r="5" fill="#a78bfa" opacity="0.7"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="r" values="4.5;5.5;4.5" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle>
     <circle cx="425.0" cy="85" r="2" fill="#ffffff" opacity="0.9"/>
     <text x="425.0" y="111" fill="#f1f5f9" font-size="14" font-weight="bold" font-family="sans-serif" text-anchor="middle">EdilandoSaturnino</text>
-    <text x="425.0" y="129" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">Nada neste mundo supera a boa e velha persistencia. O talento nao</text>
-    <text x="425.0" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">supera. Nada é mais comum do que fracassados talentosos. O genio nao</text>
-    <text x="425.0" y="159" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">supera. Genios nao reconhecidos sao praticamente um cliche. A</text>
-    <text x="425.0" y="174" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">educacao nao supera. O mundo esta cheio de tolos instruidos.</text>
+    <text x="425.0" y="129" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">Nada neste mundo supera a boa e velha persistência. O talento não</text>
+    <text x="425.0" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">supera. Nada é mais comum do que fracassados talentosos. O gênio não</text>
+    <text x="425.0" y="159" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">supera. Gênios não reconhecidos são praticamente um clichê. A</text>
+    <text x="425.0" y="174" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">educação não supera. O mundo está cheio de tolos instruídos.</text>
   </g>
 
   <rect x="12" y="50" width="826" height="1.5" fill="#00d4ff" opacity="0.08"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 160" dur="6s" repeatCount="indefinite"/></rect>
