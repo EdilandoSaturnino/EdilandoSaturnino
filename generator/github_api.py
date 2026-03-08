@@ -7,6 +7,7 @@ import logging
 import os
 
 import time
+from datetime import datetime, timezone
 
 
 
@@ -116,10 +117,10 @@ class GitHubAPI:
 
     def _fetch_stats_graphql(self) -> dict:
 
-        """Fetch stats via GraphQL for accurate counts including private contributions."""
+        """Fetch stats via GraphQL with stable all-time commit counting."""
 
         query = """
-        query($username: String!) {
+        query($username: String!, $from: DateTime!, $to: DateTime!) {
           user(login: $username) {
             repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) {
               totalCount
@@ -136,23 +137,28 @@ class GitHubAPI:
                 stargazerCount
               }
             }
-            contributionsCollection {
+            contributionsCollection(from: $from, to: $to) {
               totalCommitContributions
-              restrictedContributionsCount
             }
           }
         }
         """
 
         try:
-
             resp = self._request(
 
                 "POST",
 
                 self.GRAPHQL_URL,
 
-                json={"query": query, "variables": {"username": self.username}},
+                json={
+                    "query": query,
+                    "variables": {
+                        "username": self.username,
+                        "from": "2017-01-01T00:00:00Z",
+                        "to": datetime.now(timezone.utc).isoformat(),
+                    },
+                },
 
             )
 
@@ -194,13 +200,7 @@ class GitHubAPI:
 
         total_stars = sum(n["stargazerCount"] for n in repos["nodes"])
 
-        total_commits = (
-
-            contrib["totalCommitContributions"]
-
-            + contrib["restrictedContributionsCount"]
-
-        )
+        total_commits = contrib["totalCommitContributions"]
 
 
 
